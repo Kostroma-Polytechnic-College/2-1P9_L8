@@ -11,8 +11,14 @@ namespace ConsoleProject
     {
         static void Main(string[] args)
         {
-
-
+            int i = 0;
+            int[] array = new int[] { 2, 3, 4 };
+            int x1 = array[i++];
+            int x2 = array[++i];
+            i = 0;
+            int x = ++i + i++;
+            i = 0;
+            int y = i++ + ++i;
             //Console.WriteLine(
             //    MyClass.IndexOfLastMin(
             //        new int[] { 1, 2, 3 }));
